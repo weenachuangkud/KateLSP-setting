@@ -1,9 +1,10 @@
 {
     "servers": {
-        "c": {
+        "clangd": {
             "command": ["clangd", "-log=error", "--background-index"],
             "commandDebug": ["clangd", "-log=verbose", "--background-index"],
-            "url": "https://clang.llvm.org/extra/clangd/"
+            "url": "https://clang.llvm.org/extra/clangd/",
+            "highlightingModeRegex": "^(C|C\\+\\+)$"
         }
     }
 }
