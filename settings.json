@@ -5,6 +5,11 @@
             "commandDebug": ["clangd", "-log=verbose", "--background-index"],
             "url": "https://clang.llvm.org/extra/clangd/",
             "highlightingModeRegex": "^(C|C\\+\\+)$"
+        },
+        "lua": {
+            "command": ["lua-language-server"],
+            "url": "https://github.com/LuaLS/lua-language-server",
+            "highlightingModeRegex": "^Lua$"
         }
     }
 }
