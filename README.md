@@ -37,7 +37,7 @@ If clangd is not detected automatically, you can add it manually here.
 ### 4. Test it
 
 Open a .cpp file and type:
-std::
+`std::`
 
 If autocomplete appears → working
 
